@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in Perl related to checking for undefined values using the eq operator.  The bug arises from the fact that undef is not a string, but a special value representing the absence of a value.  Using eq to compare against undef often leads to unexpected results.  The provided solution demonstrates a correct way to perform this check.
